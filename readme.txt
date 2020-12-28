@@ -6,5 +6,5 @@ Fourth modifiedsdf
 
 Boos
 
-dshoj
-Creating a new branch is quick $ simple
+dshojCreating a new branch is quick and simple
+featurel
