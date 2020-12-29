@@ -1,0 +1,37 @@
+$cardWidth: 340px;
+$cardGap: 20px;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f6f6f6;
+    font-family: arial serif;
+    margin-bottom: 100px;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+}
+
+#card-container{
+    max-width: 1920px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin:auto;
+
+    .card {
+        width: $cardWidth;
+        height: 240px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: white;
+        position: relative;
+        overflow: hidden;
+        
+    }
+}
+

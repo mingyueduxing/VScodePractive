@@ -1,0 +1,16 @@
+.card {
+  background-color: lightblue;
+  height: 200px;
+  position: relative;
+  margin: 100px;
+}
+.card__city {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+.card__city:hover {
+  background: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */
